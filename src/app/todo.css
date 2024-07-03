@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #011e41;
+}
+
+.main-box {
+    width: 40%;
+    height: 90vh;
+    /* border: 1px solid lightskyblue; */
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 8px 1px #032650; */
+    /* background-color: #032650; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article {
+    width: 97%;
+    height: 12%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    outline: #fff;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    outline-color: #505086;
+    background-color: #c9c9c9;
+}
+
+input {
+    width: 87%;
+    height: 8vh;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    outline: #505086;
+    color: #fff;
+    font-size: 15px;
+    outline-color: #505086;
+    background-color: #282851;
+}
+
+.icon {
+    background-color: #ffbbca;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main-drop-down {
+    width: 98%;
+    height: 83%;
+    /* border: 1px solid lightskyblue; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: #505086; */
+    gap: 10px;
+    overflow-y: auto;
+}
+
+.scroll {
+    width: 98%;
+    height: max-content;
+    /* border: 1px solid lightskyblue; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: #87879a; */
+    /* gap: 4px; */
+}
+
+#card-map {
+    width: 98%;
+    height: auto;
+    padding: 8px;
+    text-align: justify;
+    color: rgb(168, 168, 168);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 1px solid lightskyblue; */
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #6d6d98;
+}
+
+.arrange-icon {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;  
+    
+    gap: 10px;
+    color: rgb(168, 168, 168);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 1px solid lightskyblue; */
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #44446b;
+    position: relative;
+}
+
+
+.delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.delete-button svg {
+    fill: #e8eaed;
+    width: 24px;
+    height: 24px;
+}
+
+.editBTN {
+    background: none;
+    border: none;
+    cursor: pointer;
+  
+}
+.editBTN svg {
+    fill: #e8eaed;
+    width: 24px;
+    height: 24px;
+
+}
+.cheks {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+
+}
+
+.card-mapss p {
+    margin: 0;
+    flex: 1;
+}
+
+.card-mapss .cheks {
+    margin-right: 10px;
+}
+
+.card-mapss .editBTN, .card-mapss .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.card-mapss .editBTN svg, .card-mapss .delete-button svg {
+    fill: #888;
+    transition: fill 0.3s;
+}
+
+.card-mapss .editBTN:hover svg, .card-mapss .delete-button:hover svg {
+    fill: #555;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #87879a;
+    scrollbar-color: #44446b #87879a;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #87879a;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #44446b;
+    border-radius: 10px;
+    /* border: 3px solid #44446b; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 10px;
+}
+
+/* Scrollbar styling for Firefox */
+/* *{
+    scrollbar-width: thin;
+    scrollbar-color: #44446b #87879a;
+    scrol-radius: 10px;
+} */
